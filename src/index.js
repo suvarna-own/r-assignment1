@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './App';
 import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
+import TodoList from './ToDoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App1 />
+    {/* //<App /> */}
+
+    {/* Passing JSX in children prop */}
+    {/* <App1> </App1> */}
+
+    <TodoList></TodoList>
+
+
   </React.StrictMode>
 );
 
