@@ -5,6 +5,7 @@ import App from './App';
 import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
 import TodoList from './ToDoList';
+import PeopleList  from './PeopleList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,11 @@ root.render(
     {/* Passing JSX in children prop */}
     {/* <App1> </App1> */}
 
-    <TodoList></TodoList>
+    {/* <TodoList></TodoList> */}
+
+    {/* Feb 9   */}
+       {/* show List of People  */}
+       <PeopleList> </PeopleList>
 
 
   </React.StrictMode>

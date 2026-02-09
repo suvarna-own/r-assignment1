@@ -1,3 +1,4 @@
+import  PeopleList  from './PeopleList';
 import './App.css';
 import Gallery from './Gallery';
 import Profile from './Profile';
@@ -17,6 +18,7 @@ function App() {
        <Profile size="40px" type="square"></Profile>
        <Profile size="100px" type="circle"></Profile>
        <Gallery></Gallery>
+       
       </header>
     </div>
   );
