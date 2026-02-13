@@ -21,7 +21,7 @@ function App() {
        <Gallery></Gallery> */}
        {/* Feb 13 */}
        {/* Counter without state management */}
-       <Counter></Counter>
+       <Counter gap={50}></Counter>
        
       </header>
     </div>
