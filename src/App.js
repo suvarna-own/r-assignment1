@@ -2,7 +2,8 @@
 // import './App.css';
 // import Gallery from './Gallery';
 // import Profile from './Profile';  
-import Counter from './Counter';
+//import Counter from './Counter';
+import StepsCard from './Steps';
 
 function App() {
   return (
@@ -21,7 +22,10 @@ function App() {
        <Gallery></Gallery> */}
        {/* Feb 13 */}
        {/* Counter without state management */}
-       <Counter gap={50}></Counter>
+       {/* <Counter gap={50}></Counter> */}
+
+       {/* Steps Card Component */}
+       <StepsCard></StepsCard>
        
       </header>
     </div>
