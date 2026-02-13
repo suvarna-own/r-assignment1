@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import App1 from './App1';
+// import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
-import TodoList from './ToDoList';
-import PeopleList  from './PeopleList';
+// import TodoList from './ToDoList';
+// import PeopleList  from './PeopleList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* //<App /> */}
+    <App />
 
     {/* Passing JSX in children prop */}
     {/* <App1> </App1> */}
@@ -19,7 +19,7 @@ root.render(
 
     {/* Feb 9   */}
        {/* show List of People  */}
-       <PeopleList> </PeopleList>
+       {/* <PeopleList> </PeopleList> */}
 
 
   </React.StrictMode>
