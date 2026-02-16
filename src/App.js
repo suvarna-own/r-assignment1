@@ -3,7 +3,8 @@
 // import Gallery from './Gallery';
 // import Profile from './Profile';  
 //import Counter from './Counter';
-import StepsCard from './Steps';
+import StepsCard from './StepsCard';
+
 
 function App() {
   return (
@@ -14,19 +15,21 @@ function App() {
         </p>
        <button onClick={handleClick}>Click Me!</button>
        {/* Reading Props in event handlers */}
-       {/* <p style={{fontSize: "15px", color: "green", fontWeight: "bold"}}>Reading Props in event handlers</p>
+        {/* <p style={{fontSize: "15px", color: "green", fontWeight: "bold"}}>Reading Props in event handlers</p>
        <Toolbar></Toolbar>   */}
-       {/* Passing Props to Components */}
-       {/* <Profile size="40px" type="square"></Profile>
+        {/* Passing Props to Components */}
+        {/* <Profile size="40px" type="square"></Profile>
        <Profile size="100px" type="circle"></Profile>
        <Gallery></Gallery> */}
-       {/* Feb 13 */}
-       {/* Counter without state management */}
-       {/* <Counter gap={50}></Counter> */}
+        {/* Feb 13 */}
+        {/* Counter without state management */}
+        {/* <Counter gap={50}></Counter> */}
 
-       {/* Steps Card Component */}
-       <StepsCard></StepsCard>
-       
+        {/* Steps Card Component */}
+        <StepsCard></StepsCard>
+
+
+
       </header>
     </div>
   );
@@ -45,7 +48,7 @@ function AlertButton({ message, children }) {
   );
 }
 
-export  function Toolbar() {
+export function Toolbar() {
   return (
     <div>
       <AlertButton message="Playing!">
